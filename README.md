@@ -1,6 +1,6 @@
 # Overview
 <p>If you are wondering how to make correct Dockerfile for web applications that wrote in GO Lang you are in the right place
-In this repository i show you guys a few simple ways that you can build your own Dockerfile and use it wherever you like.Actually there is tons of websites and topics that explain Docker way better than me BUT if you use a regular Dockerfile for templates there will be a little problem with you code.
+In this repository i show you guys a few simple ways that you can build your own Dockerfile and use it wherever you like.Actually there is tons of websites and topics that explain Docker way better than me BUT if you use a regular Dockerfile for templates there will be a little problem with your code.
 Container won't find you template unless you put it in root of the project. and thats because usually Docker manuals for GO dont tell you to copy the whole template folder into the Docker and if you are new to Docker(such as me) it can get you in trouble.</p>
 
 # Manual 
@@ -39,3 +39,4 @@ CMD [ "/docker-gs-ping" ]
 EXPOSE 9090
 
 P.s:I use these names for my directory on NO speciall perpose, You can use anything you want ;)
+P.s:Dont forget to build your go.mod(even if your peoject is tiny)
