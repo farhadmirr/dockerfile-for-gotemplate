@@ -1,0 +1,1 @@
+# dockerfile-for-gotemplate
